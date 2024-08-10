@@ -3,11 +3,60 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-
+body{
+    /* background-color: aliceblue; */
+    background-image: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg');
+    background-size:cover;
+    
+}
 img{
     display: block;
 }
-.example{
+.nowrap{
+    white-space: nowrap;
+}
+.offscreen{
+    position: absolute;
+    left: -100000px;
+}
+.container{
+    background-color: rgb(251, 210, 156);
+    background-image: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg');
+    background-repeat: repeat;
+    background-size: cover; 
+}
+.hero{
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:30px;
+    background-color: rgba(0, 0, 100%, 0.35);
+
+    
+
+}
+.heading{
+    font-size:500%;
+    color:wheat;
+    text-shadow: 2px 2px 5px black;
+    /* 
+    padding: 0.25rem;
+    border-radius: 10px; */
+}
+.profile-pic-figure{
+    width: 35%;
+}
+.profile-pic-figure img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px solid gray;
+    border-radius: 50%;
+}
+
+/* .example{
     margin-top: 1rem;
     padding-left: 20px;
     border:1px solid red; 
@@ -16,4 +65,4 @@ img{
 .example img{
     width: 25%;
     height: auto;
-}
+} */
